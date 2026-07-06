@@ -1,0 +1,30 @@
+div{
+    position: relative;
+    height:200px;
+    width: 200px;
+}
+.box1{
+    background-color: rgb(6, 216, 6);
+    top: 70px;
+    left: 50px;
+    z-index: 15;
+    animation: blink-effect 1s infinite;
+}
+.box2{
+    background-color:blue;
+    top: -50px;
+    left: 90px;
+    z-index: 10;
+    animation: glitch 1s infinite;
+  
+}
+@keyframes blink-effect {
+    50%{
+        background-color: brown;
+    }
+}
+@keyframes glitch {
+    50%{
+        background-color: mediumslateblue;
+    }
+}

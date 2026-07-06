@@ -1,0 +1,19 @@
+img {
+    border: 5px solid pink;
+    border-radius: 100px 0 0 100px;
+    margin:50px;
+    border-radius: 100px;
+}
+.box{
+    width: 600px;
+    height:100px;
+    background-color:aqua;
+    overflow: scroll;
+    text-transform:uppercase;
+    text-decoration:underline;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding:30px;
+}
